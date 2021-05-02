@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Estilos Generales */
+/* Christiam Guerra */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;  /*Esto es para ver el tamaño real de los elementos*/
+} 
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Fonts*/
+
+h1 {
+	margin: 10px;
+	font-family: 'Roboto Slab', serif;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*Filas: limpiador / Display */
+
+.row::after {
+	clear: both;
+	content: ""; /*Todo el contenido se va a ver afectado*/
+	display: table;
+}
+
+
+/*Imagenes Responsive*/
+
+img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Estilos del menu*/
+
+.lanzador-menu {
+	text-decoration: none; 
+	background-color: hsla(0,0%,0%,0.01);
+	padding: 5px;
+	color: #000000;
+	display: inline-block;
+	border: 2px solid #333333;
+	border-radius: 2px;
+}
+
+
+.contenedor-menu {
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
+/* 3 */
+.navegacion a {
+	text-decoration: none;
+	clor: #000000;
+	display: inline-block;
+}
+
+
+/* 4 */
+ul {
+	list-style: none;
+	display: block;
+}
+
+
+
+
+/*ICONOS DE GOOGLE */
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+
+
